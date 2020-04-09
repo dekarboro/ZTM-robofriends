@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('http://jsonplaceholder.typicode.com/users')
+    fetch('https://cors-anywhere.herokuapp.com/http://jsonplaceholder.typicode.com/users')
       .then( resp => resp.json())
       .then(users => this.setState({ mechs: users}));    
   }
