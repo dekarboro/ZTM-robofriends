@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b0d6177e2b4e24362abc0a9030a337aa",
+    "revision": "af73b3cf0511ad035d029d9292b5ca2e",
     "url": "/ZTM-robofriends/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ZTM-robofriends/static/css/2.3b6f1bda.chunk.css"
   },
   {
-    "revision": "b0e7da4b514a7e181866",
+    "revision": "758ab11f23f2ceec643b",
     "url": "/ZTM-robofriends/static/css/main.99ccd3fe.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ZTM-robofriends/static/js/2.02ed3ccb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b0e7da4b514a7e181866",
-    "url": "/ZTM-robofriends/static/js/main.41e06a4b.chunk.js"
+    "revision": "758ab11f23f2ceec643b",
+    "url": "/ZTM-robofriends/static/js/main.b58997a4.chunk.js"
   },
   {
     "revision": "a2164ab443401d205606",
