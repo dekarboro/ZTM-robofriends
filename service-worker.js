@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ZTM-robofriends/precache-manifest.5a29e7f0e66b8252154b9406621c6aa1.js"
+  "/ZTM-robofriends/precache-manifest.ea439ba750d1fadef71d30033bb92283.js"
 );
 
 self.addEventListener('message', (event) => {

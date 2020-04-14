@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c59a5a4ad712021ebd960dc4a1e3e65c",
+    "revision": "83972345adad4bdbf8a817176338bb39",
     "url": "/ZTM-robofriends/index.html"
   },
   {
-    "revision": "5963fb335955825f0eb0",
+    "revision": "70df3e7087af8f1341c0",
     "url": "/ZTM-robofriends/static/css/2.3b6f1bda.chunk.css"
   },
   {
-    "revision": "0fbb3e513071c297d3a8",
+    "revision": "acb954d0a8110c5ec66a",
     "url": "/ZTM-robofriends/static/css/main.99ccd3fe.chunk.css"
   },
   {
-    "revision": "5963fb335955825f0eb0",
-    "url": "/ZTM-robofriends/static/js/2.02ed3ccb.chunk.js"
+    "revision": "70df3e7087af8f1341c0",
+    "url": "/ZTM-robofriends/static/js/2.d7b294a4.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/ZTM-robofriends/static/js/2.02ed3ccb.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/ZTM-robofriends/static/js/2.d7b294a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0fbb3e513071c297d3a8",
-    "url": "/ZTM-robofriends/static/js/main.a4e95886.chunk.js"
+    "revision": "acb954d0a8110c5ec66a",
+    "url": "/ZTM-robofriends/static/js/main.0a37a7c0.chunk.js"
   },
   {
     "revision": "a2164ab443401d205606",
