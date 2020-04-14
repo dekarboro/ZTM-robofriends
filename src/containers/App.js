@@ -1,16 +1,29 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Sticky from '../components/Sticky';
 import ErrorBoundry from '../components/ErrorBoundry';
 import './App.css';
 
+import { setSearchField } from '../actions.js';
+
+const mapStateToProps = state => {
+  return {
+    searchField: state.searchField
+  }
+}
+const mapDispatchToProps = dispatch => {
+  return {
+    onSearchChange: event => dispatch(setSearchField(event.target.value))
+  }
+}
+
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      mechs: [],
-      searchField: ''
+      mechs: []
     }
   }
 
@@ -20,12 +33,9 @@ class App extends Component {
       .then(users => this.setState({ mechs: users}));    
   }
 
-  onSearchChange = (e) => {
-    this.setState( { searchField: e.target.value });
-  }
-
   render() {
-    const { mechs, searchField } = this.state; 
+    const { mechs } = this.state; 
+    const { searchField, onSearchChange } = this.props;
     const filteredMechs = mechs.filter(bot => {
       return bot.username.toLowerCase().includes(searchField.toLowerCase())
     });
@@ -35,7 +45,7 @@ class App extends Component {
       return (
         <div className="tc">
           <h1 className="f1">MechaWorld</h1>
-          <SearchBox searchChange={this.onSearchChange}/>
+          <SearchBox searchChange={onSearchChange}/>
           <Sticky>
             <ErrorBoundry>
               <CardList mechs={filteredMechs}/>
@@ -47,4 +57,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default connect(mapStateToProps, mapDispatchToProps)(App);
